@@ -12,6 +12,3 @@ func Contains(slice []string, target string) bool {
 	}
 	return false
 }
-
-user.name=wuqiong
-user.email=qiong.wu@tmcang.com
