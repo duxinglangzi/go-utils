@@ -2,12 +2,12 @@
 首先介绍创建go module 项目工程
 
 #### 1、创建工程
-1、 在github 创建一个仓库地址， 然后将其拉下来
-2、 进入对应目录， 执行 : go mod init go mod init github.com/duxinglangzi/go-utils
-会提示:  `go: creating new go.mod: module github.com/duxinglangzi/go-utils`  
-3、 编写自己的代码文件 ~  并提交代码
-4、创建 git tag 标签， 命令:   **` git tag v0.0.1 `**
-5、 此时推送git tag 到远程仓库 : git push origin v0.0.1
+1、 在github 创建一个仓库地址， 然后将其拉下来<br>
+2、 进入对应目录， 执行 : go mod init go mod init github.com/duxinglangzi/go-utils <br>
+会提示:  `go: creating new go.mod: module github.com/duxinglangzi/go-utils`   <br>
+3、 编写自己的代码文件 ~  并提交代码 <br> 
+4、创建 git tag 标签， 命令:   **` git tag v0.0.1 `**  <br> 
+5、 此时推送git tag 到远程仓库 : git push origin v0.0.1  <br> 
 
 
 #### 2、在其他工程引入时可能出现的错误
